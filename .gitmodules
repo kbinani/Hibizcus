@@ -1,3 +1,6 @@
 [submodule "Libs/Otfcc"]
 	path = Libs/Otfcc
 	url = https://github.com/caryll/otfcc.git
+[submodule "Libs/Harfbuzz"]
+	path = Libs/Harfbuzz
+	url = https://github.com/harfbuzz/harfbuzz.git
