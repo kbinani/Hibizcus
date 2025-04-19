@@ -83,18 +83,15 @@
 		005352782608E2D6007F33D9 /* cluster_devanagari.json in Resources */ = {isa = PBXBuildFile; fileRef = 002C625B25F781E300596186 /* cluster_devanagari.json */; };
 		005352792608E2D6007F33D9 /* devanagari_sanskrit.txt in Resources */ = {isa = PBXBuildFile; fileRef = 00566AFD25FA5E3000D06D7D /* devanagari_sanskrit.txt */; };
 		0053527A2608E2D6007F33D9 /* devanagari_marathi.txt in Resources */ = {isa = PBXBuildFile; fileRef = 00566AF925FA59D900D06D7D /* devanagari_marathi.txt */; };
-		00535284260B6829007F33D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0053522E2608DB8C007F33D9 /* Assets.xcassets */; };
 		006B1FFE268D7396007215D3 /* khmer_khmer.txt in Resources */ = {isa = PBXBuildFile; fileRef = 006B1FFD268D7396007215D3 /* khmer_khmer.txt */; };
 		006CAE79264E3A0700D404D3 /* AnchorPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0083669B25E581AF0058CA1B /* AnchorPoints.swift */; };
 		006CAE7A264E3A1800D404D3 /* FontMetrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0053525F2608DE96007F33D9 /* FontMetrics.swift */; };
 		006FE1EF29854FD700A04925 /* HibizcusSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006FE1EE29854FD700A04925 /* HibizcusSettings.swift */; };
 		0093EC7B264E83EB009AB412 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 0093EC3D264E83EB009AB412 /* LICENSE */; };
-		0093EC7C264E83EB009AB412 /* liblibotfcc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0093EC7A264E83EB009AB412 /* liblibotfcc.a */; };
 		00A8D24F264E866B00C2B964 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 00A8D11F264E866B00C2B964 /* README */; };
 		00A8D250264E866B00C2B964 /* libharfbuzz.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00A8D120264E866B00C2B964 /* libharfbuzz.a */; };
 		00A8D276264E866B00C2B964 /* hb-ot-shape-complex-khmer-machine.rl in Resources */ = {isa = PBXBuildFile; fileRef = 00A8D16C264E866B00C2B964 /* hb-ot-shape-complex-khmer-machine.rl */; };
 		00A8D2A6264E866B00C2B964 /* harfbuzz-gobject.pc.in in Resources */ = {isa = PBXBuildFile; fileRef = 00A8D1D3264E866B00C2B964 /* harfbuzz-gobject.pc.in */; };
-		00AF64A928EDE12900A8058C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00AF64A828EDE12900A8058C /* Assets.xcassets */; };
 		00B2548A2625ECAD00A8B39D /* HBStringGlyphListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B254892625ECAD00A8B39D /* HBStringGlyphListView.swift */; };
 		00B2548D2628619200A8B39D /* HBSidebarFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B2548C2628619200A8B39D /* HBSidebarFont.swift */; };
 		00B254912628845500A8B39D /* HBSidebarLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B254902628845500A8B39D /* HBSidebarLanguage.swift */; };
@@ -112,7 +109,19 @@
 		00CEEA9B2641708400F515A1 /* cluster_thai.json in Resources */ = {isa = PBXBuildFile; fileRef = 00CEEA9A2641708400F515A1 /* cluster_thai.json */; };
 		00D8D6AF269438DF009D48A8 /* myanmar_myanmar.txt in Resources */ = {isa = PBXBuildFile; fileRef = 00D8D6AE269438DF009D48A8 /* myanmar_myanmar.txt */; };
 		00ED49A4260E344F00AF29E0 /* HBFileWatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00ED49A2260E344F00AF29E0 /* HBFileWatcher.swift */; };
+		942BDD7E2DB1DF1E00C398A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 942BDD7D2DB1DF1E00C398A3 /* Assets.xcassets */; };
+		949C953C2DB37542006EE3F2 /* liblibotfcc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 949C953B2DB37539006EE3F2 /* liblibotfcc.a */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		949C953A2DB37539006EE3F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 949C95352DB37539006EE3F2 /* libotfcc.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4493EEF55BA68A274BC28535;
+			remoteInfo = libotfcc;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		0047EA552639A53E00A07ACC /* Embed Frameworks */ = {
@@ -173,7 +182,6 @@
 		005352262608DB8A007F33D9 /* Hibizcus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hibizcus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		005352282608DB8A007F33D9 /* HibizcusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HibizcusApp.swift; sourceTree = "<group>"; };
 		0053522A2608DB8A007F33D9 /* HibizcusDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HibizcusDocument.swift; sourceTree = "<group>"; };
-		0053522E2608DB8C007F33D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		005352312608DB8C007F33D9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		005352332608DB8C007F33D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		005352342608DB8C007F33D9 /* Hibizcus.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Hibizcus.entitlements; sourceTree = "<group>"; };
@@ -255,7 +263,6 @@
 		0093EC77264E83EB009AB412 /* element.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = element.h; sourceTree = "<group>"; };
 		0093EC78264E83EB009AB412 /* ownership.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ownership.h; sourceTree = "<group>"; };
 		0093EC79264E83EB009AB412 /* vector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vector.h; sourceTree = "<group>"; };
-		0093EC7A264E83EB009AB412 /* liblibotfcc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = liblibotfcc.a; sourceTree = "<group>"; };
 		00A5FE2825EE5678007FB99A /* Readme.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Readme.txt; sourceTree = "<group>"; };
 		00A5FE2A25EE6EFC007FB99A /* devanagari_hindi.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = devanagari_hindi.txt; sourceTree = "<group>"; };
 		00A5FE2C25EE876D007FB99A /* tamil_tamil.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = tamil_tamil.txt; sourceTree = "<group>"; };
@@ -442,7 +449,6 @@
 		00A8D24A264E866B00C2B964 /* hb-ft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "hb-ft.h"; sourceTree = "<group>"; };
 		00A8D24B264E866B00C2B964 /* hb-ot-shape-complex-arabic.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = "hb-ot-shape-complex-arabic.hh"; sourceTree = "<group>"; };
 		00A8D24D264E866B00C2B964 /* hb-shaper-impl.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = "hb-shaper-impl.hh"; sourceTree = "<group>"; };
-		00AF64A828EDE12900A8058C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00B254892625ECAD00A8B39D /* HBStringGlyphListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBStringGlyphListView.swift; sourceTree = "<group>"; };
 		00B2548C2628619200A8B39D /* HBSidebarFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBSidebarFont.swift; sourceTree = "<group>"; };
 		00B254902628845500A8B39D /* HBSidebarLanguage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBSidebarLanguage.swift; sourceTree = "<group>"; };
@@ -469,6 +475,13 @@
 		00DDB52125EB3150002FC0B4 /* OTLanguageTags.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTLanguageTags.swift; sourceTree = "<group>"; };
 		00DDB53525ED9AA6002FC0B4 /* HBFontAnkrTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBFontAnkrTable.swift; sourceTree = "<group>"; };
 		00ED49A2260E344F00AF29E0 /* HBFileWatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBFileWatcher.swift; sourceTree = "<group>"; };
+		942BDD7D2DB1DF1E00C398A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		949C95302DB374CD006EE3F2 /* liblibotfcc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = liblibotfcc.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		949C95332DB3750B006EE3F2 /* liblibotfcc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = liblibotfcc.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		949C95352DB37539006EE3F2 /* libotfcc.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = libotfcc.xcodeproj; path = Libs/Otfcc/build/xcode/libotfcc.xcodeproj; sourceTree = "<group>"; };
+		94FF4F5B2DB3745E0019A1F4 /* liblibotfcc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = liblibotfcc.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		94FF4F5D2DB3746A0019A1F4 /* liblibotfcc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = liblibotfcc.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		94FF4F5F2DB374880019A1F4 /* liblibotfcc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = liblibotfcc.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -477,7 +490,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				00A8D250264E866B00C2B964 /* libharfbuzz.a in Frameworks */,
-				0093EC7C264E83EB009AB412 /* liblibotfcc.a in Frameworks */,
+				949C953C2DB37542006EE3F2 /* liblibotfcc.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -558,11 +571,10 @@
 				005352282608DB8A007F33D9 /* HibizcusApp.swift */,
 				0053522A2608DB8A007F33D9 /* HibizcusDocument.swift */,
 				006FE1EE29854FD700A04925 /* HibizcusSettings.swift */,
-				0053522E2608DB8C007F33D9 /* Assets.xcassets */,
 				005352332608DB8C007F33D9 /* Info.plist */,
 				005352342608DB8C007F33D9 /* Hibizcus.entitlements */,
 				005352302608DB8C007F33D9 /* Preview Content */,
-				00AF64A828EDE12900A8058C /* Assets.xcassets */,
+				942BDD7D2DB1DF1E00C398A3 /* Assets.xcassets */,
 			);
 			path = Hibizcus;
 			sourceTree = "<group>";
@@ -656,7 +668,6 @@
 			children = (
 				0093EC3D264E83EB009AB412 /* LICENSE */,
 				0093EC3E264E83EB009AB412 /* include */,
-				0093EC7A264E83EB009AB412 /* liblibotfcc.a */,
 				007CFC26264E9B1200AF2FD2 /* README.Hibizcus.md */,
 			);
 			path = Otfcc;
@@ -977,6 +988,7 @@
 		00E5E76D25D2BCA50061AC60 = {
 			isa = PBXGroup;
 			children = (
+				949C95352DB37539006EE3F2 /* libotfcc.xcodeproj */,
 				0036DB182678CEF1003E91AF /* Hibizcus.icns */,
 				006CAE7B264E3A4F00D404D3 /* HBFont */,
 				006FB98F25E694CF00F05B17 /* HBGridView */,
@@ -987,6 +999,7 @@
 				00E5E77225D2BCA50061AC60 /* Shared */,
 				005352272608DB8A007F33D9 /* Hibizcus */,
 				00E5E77B25D2BCA90061AC60 /* Products */,
+				94FF4F582DB373500019A1F4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1005,6 +1018,26 @@
 				005352262608DB8A007F33D9 /* Hibizcus.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		949C95362DB37539006EE3F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				949C953B2DB37539006EE3F2 /* liblibotfcc.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94FF4F582DB373500019A1F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				949C95332DB3750B006EE3F2 /* liblibotfcc.a */,
+				949C95302DB374CD006EE3F2 /* liblibotfcc.a */,
+				94FF4F5F2DB374880019A1F4 /* liblibotfcc.a */,
+				94FF4F5D2DB3746A0019A1F4 /* liblibotfcc.a */,
+				94FF4F5B2DB3745E0019A1F4 /* liblibotfcc.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1053,12 +1086,28 @@
 			mainGroup = 00E5E76D25D2BCA50061AC60;
 			productRefGroup = 00E5E77B25D2BCA90061AC60 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 949C95362DB37539006EE3F2 /* Products */;
+					ProjectRef = 949C95352DB37539006EE3F2 /* libotfcc.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				005352252608DB8A007F33D9 /* Hibizcus */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		949C953B2DB37539006EE3F2 /* liblibotfcc.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = liblibotfcc.a;
+			remoteRef = 949C953A2DB37539006EE3F2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		005352242608DB8A007F33D9 /* Resources */ = {
@@ -1089,7 +1138,6 @@
 				00341CF0263EB15100EFA443 /* cluster_buginese.json in Resources */,
 				00166C02284C6527003EA3EB /* brahmi_sanskrit.txt in Resources */,
 				00341CF8263EF09E00EFA443 /* cluster_rejang.json in Resources */,
-				00AF64A928EDE12900A8058C /* Assets.xcassets in Resources */,
 				00D8D6AF269438DF009D48A8 /* myanmar_myanmar.txt in Resources */,
 				0053527A2608E2D6007F33D9 /* devanagari_marathi.txt in Resources */,
 				00CEEA9126410D6800F515A1 /* cluster_javanese.json in Resources */,
@@ -1102,7 +1150,6 @@
 				00049881283B2CEA00154812 /* cluster_brahmi.json in Resources */,
 				0023785326346717006B5E9B /* cluster_malayalam.json in Resources */,
 				0016437026354C6F0044B965 /* kannada_kannada.txt in Resources */,
-				00535284260B6829007F33D9 /* Assets.xcassets in Resources */,
 				005352792608E2D6007F33D9 /* devanagari_sanskrit.txt in Resources */,
 				0036DB1B26795DB0003E91AF /* supported_scripts.txt in Resources */,
 				005352712608E2D6007F33D9 /* Readme.txt in Resources */,
@@ -1119,6 +1166,7 @@
 				005352742608E2D6007F33D9 /* devanagari_nepali.txt in Resources */,
 				005352782608E2D6007F33D9 /* cluster_devanagari.json in Resources */,
 				0023783B263401CB006B5E9B /* odia_odia.txt in Resources */,
+				942BDD7E2DB1DF1E00C398A3 /* Assets.xcassets in Resources */,
 				001643772635647F0044B965 /* cluster_sinhala.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
