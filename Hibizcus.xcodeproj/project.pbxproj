@@ -208,8 +208,6 @@
 		006FB99025E694E900F05B17 /* HBGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBGridView.swift; sourceTree = "<group>"; };
 		006FB99325E6950F00F05B17 /* HBTraceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBTraceView.swift; sourceTree = "<group>"; };
 		006FE1EE29854FD700A04925 /* HibizcusSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HibizcusSettings.swift; sourceTree = "<group>"; };
-		007CFC24264E9AF600AF2FD2 /* README.Hibizcus.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.Hibizcus.md; sourceTree = "<group>"; };
-		007CFC26264E9B1200AF2FD2 /* README.Hibizcus.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.Hibizcus.md; sourceTree = "<group>"; };
 		007CFC2B264EB0B800AF2FD2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		007CFC2C264EB0B800AF2FD2 /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = SOURCE_ROOT; };
 		0083646A25DAA6F60058CA1B /* Hibizcus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hibizcus.swift; sourceTree = "<group>"; };
@@ -289,7 +287,6 @@
 		00A5FE4B25F65043007FB99A /* HBGlyphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBGlyphView.swift; sourceTree = "<group>"; };
 		00A5FE4D25F74490007FB99A /* HBClusterEntryEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBClusterEntryEditor.swift; sourceTree = "<group>"; };
 		00A8D11F264E866B00C2B964 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
-		00A8D120264E866B00C2B964 /* libharfbuzz.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libharfbuzz.a; sourceTree = "<group>"; };
 		00A8D126264E866B00C2B964 /* hb-ot-shape-complex-arabic-joining-list.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = "hb-ot-shape-complex-arabic-joining-list.hh"; sourceTree = "<group>"; };
 		00A8D127264E866B00C2B964 /* hb-buffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "hb-buffer.h"; sourceTree = "<group>"; };
 		00A8D128264E866B00C2B964 /* hb-ot-var-gvar-table.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = "hb-ot-var-gvar-table.hh"; sourceTree = "<group>"; };
@@ -683,7 +680,6 @@
 			children = (
 				0093EC3D264E83EB009AB412 /* LICENSE */,
 				0093EC3E264E83EB009AB412 /* include */,
-				007CFC26264E9B1200AF2FD2 /* README.Hibizcus.md */,
 			);
 			path = Otfcc;
 			sourceTree = "<group>";
@@ -800,9 +796,7 @@
 			isa = PBXGroup;
 			children = (
 				00A8D11F264E866B00C2B964 /* README */,
-				00A8D120264E866B00C2B964 /* libharfbuzz.a */,
 				00A8D121264E866B00C2B964 /* src */,
-				007CFC24264E9AF600AF2FD2 /* README.Hibizcus.md */,
 			);
 			path = Harfbuzz;
 			sourceTree = "<group>";
